@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harborview School Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo">Harborview School</div>
+        <ul class="nav-links">
+          <li><a href="#login">Login</a></li>
+          <li><a href="#records">Student Records</a></li>
+          <li><a href="#payments">Fee Status</a></li>
+          <li><a href="#dashboard">Admin Dashboard</a></li>
+        </ul>
+        <button class="primary-btn">Request Demo</button>
+      </nav>
+      <div class="hero-content">
+        <div>
+          <p class="badge">All-in-one school management</p>
+          <h1>Modernize operations, empower educators, and keep families informed.</h1>
+          <p class="subtitle">
+            A secure, cloud-first platform that centralizes admissions, attendance, fee collection,
+            communication, and compliance tracking.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-btn">Start Free Trial</button>
+            <button class="ghost-btn">Talk to Admissions</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <h3>18K+</h3>
+              <p>Active students managed</p>
+            </div>
+            <div>
+              <h3>97%</h3>
+              <p>On-time fee collection</p>
+            </div>
+            <div>
+              <h3>120</h3>
+              <p>Campuses connected</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Campus insights">
+          <h2>Campus Snapshot</h2>
+          <div class="snapshot-grid">
+            <div>
+              <span>Attendance</span>
+              <strong>96.4%</strong>
+            </div>
+            <div>
+              <span>Pending approvals</span>
+              <strong>12</strong>
+            </div>
+            <div>
+              <span>Fee due this week</span>
+              <strong>$48,920</strong>
+            </div>
+            <div>
+              <span>Open tickets</span>
+              <strong>7</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="login" class="section">
+        <div class="section-heading">
+          <h2>Secure multi-role login</h2>
+          <p>Protect data with role-based access for administrators, teachers, guardians, and finance teams.</p>
+        </div>
+        <div class="login-grid">
+          <form class="login-card" aria-label="Login form">
+            <h3>Welcome back</h3>
+            <label>
+              Work email
+              <input type="email" placeholder="name@school.edu" />
+            </label>
+            <label>
+              Password
+              <input type="password" placeholder="••••••••" />
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" checked />
+              Remember this device
+            </label>
+            <button type="button" class="primary-btn full">Log in securely</button>
+            <div class="login-footer">
+              <span>Need access? <a href="#">Request an invite</a></span>
+              <a href="#">Forgot password</a>
+            </div>
+          </form>
+          <div class="login-features">
+            <div class="feature-card">
+              <h4>Single sign-on</h4>
+              <p>Integrate with Google Workspace and Microsoft 365 for seamless access.</p>
+            </div>
+            <div class="feature-card">
+              <h4>Audit-ready security</h4>
+              <p>Detailed session logs, MFA enforcement, and automatic logout policies.</p>
+            </div>
+            <div class="feature-card">
+              <h4>Parent portal</h4>
+              <p>Give guardians access to progress reports, invoices, and announcements.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="records" class="section alt">
+        <div class="section-heading">
+          <h2>Unified student records</h2>
+          <p>Track enrollment, attendance, learning plans, and wellbeing notes in a single profile.</p>
+        </div>
+        <div class="records-toolbar">
+          <div class="pill">2024-2025 Academic Year</div>
+          <div class="pill">Filters: Grade 9-12 · On campus</div>
+          <button class="ghost-btn">Export CSV</button>
+        </div>
+        <div class="table-card">
+          <table>
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>Grade</th>
+                <th>Advisor</th>
+                <th>Attendance</th>
+                <th>Learning Plan</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="student">
+                    <span class="avatar">AM</span>
+                    <div>
+                      <strong>Amina Morris</strong>
+                      <span>STU-00918</span>
+                    </div>
+                  </div>
+                </td>
+                <td>Grade 12</td>
+                <td>Mr. Howard</td>
+                <td>98%</td>
+                <td>STEM Scholarship</td>
+                <td><span class="status success">On track</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="student">
+                    <span class="avatar">JL</span>
+                    <div>
+                      <strong>Jordan Lee</strong>
+                      <span>STU-00472</span>
+                    </div>
+                  </div>
+                </td>
+                <td>Grade 11</td>
+                <td>Ms. Patel</td>
+                <td>93%</td>
+                <td>Arts Pathway</td>
+                <td><span class="status warning">Needs review</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="student">
+                    <span class="avatar">SK</span>
+                    <div>
+                      <strong>Sofia Kim</strong>
+                      <span>STU-00154</span>
+                    </div>
+                  </div>
+                </td>
+                <td>Grade 10</td>
+                <td>Mr. Diaz</td>
+                <td>96%</td>
+                <td>ELL Support</td>
+                <td><span class="status success">On track</span></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="student">
+                    <span class="avatar">NO</span>
+                    <div>
+                      <strong>Nathan Ortiz</strong>
+                      <span>STU-00703</span>
+                    </div>
+                  </div>
+                </td>
+                <td>Grade 9</td>
+                <td>Dr. Graham</td>
+                <td>89%</td>
+                <td>Attendance plan</td>
+                <td><span class="status danger">At risk</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="payments" class="section">
+        <div class="section-heading">
+          <h2>Fee payment status</h2>
+          <p>Monitor invoices, partial payments, scholarships, and automated reminders in real time.</p>
+        </div>
+        <div class="payments-grid">
+          <article class="payment-card">
+            <h3>Collection overview</h3>
+            <p class="amount">$312,540 collected</p>
+            <p class="caption">$27,800 remaining for term 2</p>
+            <div class="progress">
+              <span style="width: 92%"></span>
+            </div>
+            <ul>
+              <li>Auto-reminders enabled for 98% of families</li>
+              <li>35 scholarship credits applied</li>
+              <li>6 installment plans active</li>
+            </ul>
+          </article>
+          <article class="payment-card">
+            <h3>Upcoming due dates</h3>
+            <div class="due-item">
+              <div>
+                <strong>Apr 12</strong>
+                <span>Grade 9 tuition</span>
+              </div>
+              <span class="pill">$12,400</span>
+            </div>
+            <div class="due-item">
+              <div>
+                <strong>Apr 18</strong>
+                <span>Transportation fees</span>
+              </div>
+              <span class="pill">$4,860</span>
+            </div>
+            <div class="due-item">
+              <div>
+                <strong>Apr 24</strong>
+                <span>Science lab materials</span>
+              </div>
+              <span class="pill">$2,150</span>
+            </div>
+            <button class="ghost-btn full">Send payment reminders</button>
+          </article>
+          <article class="payment-card">
+            <h3>Delinquent accounts</h3>
+            <div class="delinquent">
+              <div>
+                <strong>17</strong>
+                <span>Over 30 days</span>
+              </div>
+              <div>
+                <strong>9</strong>
+                <span>Payment plans</span>
+              </div>
+            </div>
+            <p class="caption">Priority outreach list</p>
+            <ol>
+              <li>STU-00703 — $1,280</li>
+              <li>STU-00211 — $980</li>
+              <li>STU-00834 — $870</li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+      <section id="dashboard" class="section alt">
+        <div class="section-heading">
+          <h2>Admin dashboard</h2>
+          <p>Real-time insights for enrollment, staffing, compliance, and operational planning.</p>
+        </div>
+        <div class="dashboard-grid">
+          <div class="metric-card">
+            <span>Enrollment growth</span>
+            <h3>+6.4%</h3>
+            <p>Projected for next semester</p>
+          </div>
+          <div class="metric-card">
+            <span>Open staffing roles</span>
+            <h3>14</h3>
+            <p>Across academics and operations</p>
+          </div>
+          <div class="metric-card">
+            <span>Compliance tasks</span>
+            <h3>92%</h3>
+            <p>Completed for Q2 reporting</p>
+          </div>
+          <div class="metric-card">
+            <span>Transportation coverage</span>
+            <h3>31 routes</h3>
+            <p>Optimized for reduced travel time</p>
+          </div>
+        </div>
+        <div class="dashboard-panels">
+          <div class="panel">
+            <h3>Priority actions</h3>
+            <ul>
+              <li>Finalize hiring shortlist for STEM faculty</li>
+              <li>Approve field trip requests (5 pending)</li>
+              <li>Review facility maintenance schedules</li>
+              <li>Launch summer program enrollment campaign</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Operations timeline</h3>
+            <div class="timeline">
+              <div>
+                <span>Today</span>
+                <p>Board meeting agenda review</p>
+              </div>
+              <div>
+                <span>Apr 15</span>
+                <p>Emergency drill compliance report</p>
+              </div>
+              <div>
+                <span>Apr 22</span>
+                <p>Graduation ceremony logistics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3>Harborview School Management</h3>
+        <p>Streamline your campus operations with secure, student-first tools.</p>
+      </div>
+      <div>
+        <h4>Platform</h4>
+        <ul>
+          <li>Admissions</li>
+          <li>Attendance</li>
+          <li>Billing</li>
+          <li>Analytics</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li>Help Center</li>
+          <li>Security</li>
+          <li>Implementation</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
